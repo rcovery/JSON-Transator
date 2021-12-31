@@ -1,0 +1,22 @@
+{
+  "name": "json-transator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcovery/JSON-Transator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcovery/JSON-Transator/issues"
+  },
+  "homepage": "https://github.com/rcovery/JSON-Transator#readme",
+  "dependencies": {
+    "translate": "^1.4.1"
+  }
+}

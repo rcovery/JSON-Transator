@@ -1,0 +1,12 @@
+version: "3.5"
+services:
+  app:
+    build: .
+    environment:
+      - TERM=xterm
+    ports:
+      - "9000:80"
+    container_name: "translator"
+    volumes:
+      - ..:/home/translator
+    entrypoint: "tail -f /dev/null"
